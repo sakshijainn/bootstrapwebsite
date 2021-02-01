@@ -6,6 +6,13 @@ body {
 a {
   text-decoration: none !important;
 }
+h1 {
+  font-size: 48px;
+  line-height: 70px;
+  /* or 140% */
+
+  color: #0b132a;
+}
 
 .a-style {
   font-style: normal;
@@ -31,12 +38,26 @@ a {
 }
 
 .sign-in {
-
   font-weight: 500;
   font-size: 16px;
   color: #0b132a;
 }
-.sign-in:hover 
-{
-    color: #0b132a;   
+.sign-in:hover {
+  color: #0b132a;
+}
+
+.hero_text {
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+
+  color: #4f5665;
+}
+
+.hero_btn {
+  background: #f53838;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 25px;
+  color:#fff;
 }
