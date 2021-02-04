@@ -89,6 +89,12 @@ h1 {
   border-radius: 10px !important;
 }
 
+.plan-card:hover {
+  border: 2px solid #f53838 !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+}
+
 .plan-card li {
   color: #4f5665;
   font-size: 14px;
@@ -103,5 +109,33 @@ h1 {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-
 }
+
+.plan-sub-head {
+  color: #4f5665;
+}
+
+.loc-sub-head {
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  text-align: center;
+
+  color: #4f5665;
+}
+
+.clients .card  {
+ 
+  border: 2px solid  #F6F6F6 !important;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.cardstyle:hover 
+{ 
+  border: 2px solid #F53838 !important;
+  
+}
+
+
